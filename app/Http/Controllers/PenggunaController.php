@@ -10,4 +10,9 @@ class PenggunaController extends Controller
     {
         return view('pengguna/home');
     }
+
+    public function show_kategori()
+    {
+        return view('pengguna/home');
+    }
 }
