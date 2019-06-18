@@ -30,4 +30,9 @@ class AdminController extends Controller
     {
         return view('admin/dashboard');
     }
+
+    public function kategori()
+    {
+        return view('admin/kategori');
+    }
 }

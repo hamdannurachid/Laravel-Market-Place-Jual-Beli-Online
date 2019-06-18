@@ -19,5 +19,6 @@ Route::group(['prefix' => 'admin'], function () {
     Route::post('/login', 'AuthAdmin\LoginController@login')->name('admin.login.submit');
     Route::get('/', 'AdminController@index')->name('admin.home');
     Route::get('/dashboard', 'AdminController@dashboard')->name('admin.dashboard');
+    Route::get('/add-kategori', 'AdminController@kategori')->name('admin.kategori.create');
 
 });
