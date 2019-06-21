@@ -74,7 +74,7 @@
           </li>
           <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Produk</span><i class="treeview-indicator fa fa-angle-right"></i></a>
             <ul class="treeview-menu">
-              <li><a class="treeview-item" href="{{ route ('admin.produk')}}"><i class="icon fa fa-circle-o"></i> Tambah Kategori Produk</a></li>
+              <li><a class="treeview-item" href="{{ route ('admin.produk')}}"><i class="icon fa fa-circle-o"></i> Tambah Produk Baru</a></li>
               <li><a class="treeview-item" href="table-data-table.html"><i class="icon fa fa-circle-o"></i> List Produk</a></li>
             </ul>
           </li>

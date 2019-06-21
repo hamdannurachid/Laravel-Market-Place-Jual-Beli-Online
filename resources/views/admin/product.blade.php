@@ -125,7 +125,7 @@
     <div class="tile">
       <h3 class="tile-title">Tambah Produk Baru</h3>
       <div class="tile-body">
-        <form class="form-horizontal" method="post" action="{{ route ('admin.produk.store') }}">
+        <form class="form-horizontal" method="post" action="{{ route ('admin.produk.store') }}" enctype="multipart/form-data">
           {{ csrf_field()}}
           <div class="form-group row">
             <label class="control-label col-md-3">id Produk</label>
@@ -172,7 +172,7 @@
           </div>
           <div class="row">
             <div class="col-md-8 col-md-offset-3">
-              <button class="btn btn-primary" type="submit"><i class="fa fa-fw fa-lg fa-check-circle"></i>Register</button>&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary" href="#"><i class="fa fa-fw fa-lg fa-times-circle"></i>Cancel</a>
+              <button class="btn btn-primary" type="submit"><i class="fa fa-fw fa-lg fa-check-circle"></i>Simpan</button>&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary" href="#"><i class="fa fa-fw fa-lg fa-times-circle"></i>Batal</a>
             </div>
           </div>
           </div>
