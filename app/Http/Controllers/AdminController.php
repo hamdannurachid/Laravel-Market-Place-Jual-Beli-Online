@@ -35,4 +35,9 @@ class AdminController extends Controller
     {
         return view('admin/kategori');
     }
+
+    public function add_kategori(Request $request)
+    {
+
+    }
 }
