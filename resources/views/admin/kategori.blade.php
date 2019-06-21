@@ -16,7 +16,7 @@
     <div class="tile">
       <h3 class="tile-title">Tambah Kategori Baru</h3>
       <div class="tile-body">
-        <form class="form-horizontal" action="{{ route('kategori.store') }}">
+        <form class="form-horizontal" action="{{ route('admin.kategori.store') }}">
                 @csrf
           <div class="form-group row">
             <label class="control-label col-md-3">Nama Kategori</label>
