@@ -68,13 +68,13 @@
         <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Menu</span></a></li>
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Kategori</span><i class="treeview-indicator fa fa-angle-right"></i></a>
             <ul class="treeview-menu">
-              <li><a class="treeview-item" href="{{ route ('admin.produk.create')}}"><i class="icon fa fa-circle-o"></i> Tambah Kategori Baru</a></li>
+              <li><a class="treeview-item" href="{{ route ('admin.kategori.create')}}"><i class="icon fa fa-circle-o"></i> Tambah Kategori Baru</a></li>
               <li><a class="treeview-item" href="table-data-table.html"><i class="icon fa fa-circle-o"></i> List Kategori</a></li>
             </ul>
           </li>
           <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Produk</span><i class="treeview-indicator fa fa-angle-right"></i></a>
             <ul class="treeview-menu">
-              <li><a class="treeview-item" href="{{ route ('admin.produk.create')}}"><i class="icon fa fa-circle-o"></i> Tambah Kategori Produk</a></li>
+              <li><a class="treeview-item" href="{{ route ('admin.produk')}}"><i class="icon fa fa-circle-o"></i> Tambah Kategori Produk</a></li>
               <li><a class="treeview-item" href="table-data-table.html"><i class="icon fa fa-circle-o"></i> List Produk</a></li>
             </ul>
           </li>
