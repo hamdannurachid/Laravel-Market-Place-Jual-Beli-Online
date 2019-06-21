@@ -11,7 +11,7 @@ class AdminsTableSeeder extends Seeder
      */
     public function run()
     {
-        \App\Admin::insert([
+        Admin::insert([
             [
               'name'  => 'HaiAdmin',
               'email' => 'hai@admin.com',
