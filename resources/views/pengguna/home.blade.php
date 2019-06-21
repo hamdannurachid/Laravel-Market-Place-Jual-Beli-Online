@@ -97,7 +97,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		<div class="top-nav">
 			  <ul class="megamenu skyblue">
-				      <li class="active grid"><a  href="#">Barang Dijual</a>
+				      <li class="active grid"><a  href=" {{route('produk.list')}} ">Barang Dijual</a>
 
 					</li>
 
