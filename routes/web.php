@@ -23,5 +23,6 @@ Route::group(['prefix' => 'admin'], function () {
     Route::post('/add-kategori/store', 'AdminController@store')->name('admin.kategori.store');
     Route::get('/add-produk', 'ProductController@index')->name('admin.produk');
     Route::post('/add-produk/store', 'ProductController@store')->name('admin.produk.store');
+    Route::get('/list-produk', 'ProductController@show')->name('admin.produk.list');
 
 });
