@@ -1,6 +1,6 @@
-@extends('home')
+@extends('pengguna.home')
 
-@section('main')
+@section('content')
 	<div class="banner">
 		<div class="container">
 		  <div class="wmuSlider example1">
