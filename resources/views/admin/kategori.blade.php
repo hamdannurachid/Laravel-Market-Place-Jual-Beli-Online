@@ -19,6 +19,7 @@
         <form class="form-horizontal" action="{{ route('admin.kategori.store') }}">
                 @csrf
           <div class="form-group row">
+          <div class="form-group row">
             <label class="control-label col-md-3">Nama Kategori</label>
             <div class="col-md-8">
               <input class="form-control" type="text" placeholder="nama kategori" name="name">
@@ -27,6 +28,7 @@
           <div class="form-group row">
             <label class="control-label col-md-3">Deskripsi</label>
             <div class="col-md-8">
+            <h3 class="tile-title">Tambah Kategori </h3>
               <input class="form-control col-md-8" type="text" placeholder="deskripsi" name="deskripsi">
             </div>
           </div>
