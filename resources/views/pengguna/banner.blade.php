@@ -46,9 +46,9 @@
 				   	 </div>
 			</article>
 			 <article style="position: absolute; width: 100%; opacity: 0;">
-				   		<div class="banner-wrap wrap">
+				   		<div class="banner-wrap">
 
-						<div class="banner-on top">
+						<div class="banner-top">
 						<a href="single.html">
 						<div class="banner-top-in">
 							<img src="{{ asset ('markito-web/images/ba11.png') }}" class="img-responsive" alt="">
