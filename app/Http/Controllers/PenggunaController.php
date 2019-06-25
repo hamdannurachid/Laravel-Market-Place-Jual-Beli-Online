@@ -8,7 +8,8 @@ class PenggunaController extends Controller
 {
     public function index()
     {
-        return view('pengguna/banner');
+        // return view('pengguna/banner');
+        return view('pengguna/beranda');
     }
 
     public function show_kategori()
