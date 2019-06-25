@@ -4,7 +4,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-
+<!DOCTYPE html>
 <html>
 <head>
 <title>Markito A Ecommerce Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
@@ -97,7 +97,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		<div class="top-nav">
 			  <ul class="megamenu skyblue">
-				      <li class="active grid"><a  href=" {{route('produk.list')}} ">Barang Dijual</a>
+				      <li class="active grid"><a  href="#">Barang Dijual</a>
 
 					</li>
 
@@ -192,7 +192,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--banner-->
 
 
-@yield("content")
+@yield('content')
 	<!---->
 
 
