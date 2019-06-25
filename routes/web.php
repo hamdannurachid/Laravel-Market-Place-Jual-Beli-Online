@@ -11,7 +11,8 @@ Auth::routes();
 
 
 Route::get('/', 'PenggunaController@index')->name('home');
-Route::get('/list-produk', 'UserProductController@index')->name('produk.list');
+// Route::get('/list-produk', 'UserProductController@index')->name('produk.list');
+Route::get('/list-produk', 'PenggunaController@show')->name('produk.list');
 
 
 Route::group(['prefix' => 'admin'], function () {
@@ -26,6 +27,6 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/list-produk', 'ProductController@show')->name('admin.produk.list');
 
 
-    
+
 
 });
